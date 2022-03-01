@@ -1,5 +1,23 @@
-div {
-    background-color: #FFB2A6;
+.daftar-body {
+  background-color: white;
+}
+
+.card-film {
+    margin-top: 50px;
+}
+
+.film {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.daftar-foot {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav-utama {
+  text-transform: uppercase;
 }
  
   .container {
@@ -26,17 +44,14 @@ div {
   @media screen and (min-width: 550px) {
     .card {
     grid-column: span 4;
-  
+    }
   }
   
   
   @media screen and (min-width: 760px) {
-  
+
     .card {
     width: 200px;
     margin: 0 5px;
   }
-  
-  @media screen and (min-width: 960px) {
-      
   }
