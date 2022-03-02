@@ -14,15 +14,35 @@
     </head>
 
     <body class="body-page">
+        <nav class="navbar">
+            <div class="nav-utama container-fluid">
+                <div>
+                    <!-- <a class="navbar-brand" href="#"> -->
+                    <img src="./asset/logo.jpeg" class="rounded-pill img-thumbnail" alt="Brand-Logo" width="80"
+                        height="65">
+                    <!-- </a> -->
+                </div>
+                <div class="navbar-link">
+                    <nav class="nav-link">
+                        <a href="...">Home</a>
+                        <a href="/daftar-page/daftar-page.html">Daftar Film</a>
+                        <a href="...">Details & Review</a>
+                    </nav>
+                </div>
+                <div type="button">
+                    <button class="btn btn-primary" type="submit">username/logout</button>
+                </div>
+            </div>
+        </nav>
         <div class="container">
-            <div class="detail card mb-3" style="max-width: 2000px;">
+            <div class="card-item mb-3" style="max-width: 2000px;">
                 <div class="data-detail row g-0">
                     <div class="col-md-4">
                         <img src="https://upload.wikimedia.org/wikipedia/id/9/97/Poster_seri_web_Layangan_Putus.jpg"
                             width="350" height="200" class="img-fluid" alt="Foto Film">
                     </div>
                     <div class="col-md-8">
-                        <div>
+                        <div class="isi-card">
                             <h5 class="card-title">Layangan Putus</h5>
                             <p>sutradara:</p>
                             <p>producer:</p>
@@ -41,12 +61,16 @@
             </div>
 
             <div>
-                <h4>Review</h4>
+                <h4 class="text-head-Review">Review</h4>
                 <div>
                     <textarea class="review" oninput="">Review film di sini</textarea>
                 </div>
             </div>
             <button class="button-review" onclick="">Send Review</button>
+        </div>
+        <br><br><br><br>
+        <div class="footer">
+            <p>Copyright © 2021 ViewMe All Rights Reserved.</p>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
