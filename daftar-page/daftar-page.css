@@ -19,7 +19,8 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
- background-color: rgb(46, 45, 45);
+ border-bottom: 2px solid #1df0f0;
+ color: #1df0f0;
 }
 
 .card-film {
