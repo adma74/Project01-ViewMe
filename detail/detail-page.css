@@ -33,7 +33,9 @@
   }
   
   a:hover, a:active {
-   background-color: rgb(46, 45, 45);
+   /* background-color: azure; */
+  text-decoration: underline azure;
+  color: azure;
   }
 
   .card-item {
@@ -44,14 +46,17 @@
 .isi-card {
     background-color: rgb(25, 26, 26);
     text-align: justify;
+    margin-right: 20px;
 }
   .text-head-Review {
     color: azure;
     text-transform: capitalize;
     font-family: Arial;
   }
+  
   .footer {
     color: azure;
     text-align: center;
     background-color: rgb(25, 26, 26);
+    margin-top: 100px;
   }
