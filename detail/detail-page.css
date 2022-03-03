@@ -33,7 +33,9 @@
   }
   
   a:hover, a:active {
-   background-color: rgb(46, 45, 45);
+   /* background-color: azure; */
+  text-decoration: underline azure;
+  color: azure;
   }
 
   .card-item {
@@ -52,3 +54,9 @@
     font-family: Arial;
   }
   
+  .footer {
+    color: azure;
+    text-align: center;
+    background-color: rgb(25, 26, 26);
+    margin-top: 100px;
+  }
